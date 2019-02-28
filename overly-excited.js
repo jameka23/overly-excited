@@ -34,10 +34,10 @@ function addExcitement (theWordArray) {
             Otherwise, just concatenate the word itself.
          */
         // Print buildMeUp to the console
-        if(theWordArray[i] % 3 === 0){
-            buildMeUp += theWordArray[i] + "!"
+        if(i % 3 === 0){
+            buildMeUp += theWordArray[i] + "! "
         }else {
-            buildMeUp += theWordArray[i]
+            buildMeUp += theWordArray[i] + " "
         }
         console.log(buildMeUp)
     }
